@@ -1,0 +1,14 @@
+
+.blog-list {
+  &__normal {
+    color: green;
+  }
+
+  &__warning {
+    color: yellow;
+  }
+
+  &__fatal {
+    color: red;
+  }
+}
