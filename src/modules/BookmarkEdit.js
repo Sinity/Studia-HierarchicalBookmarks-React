@@ -23,7 +23,7 @@ function BookmarkEdit({id}) {
         }
             
         axios({method: reqMethod, url: reqURL, data: bookmark})
-            .then(function (response) { navigate('/'); })
+            .then(function (response) { navigate('/'); window.location.reload(true); })
             .catch(function (error) { console.log(error); });       
             
         ev.preventDefault();
