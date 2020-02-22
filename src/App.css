@@ -4,7 +4,7 @@ body {
 }
 
 a {
-	color: cyan;
+    color: cyan;
 }
 
 hr {
@@ -12,5 +12,5 @@ hr {
 }
 
 .buttonLink {
-	appearance: button;
+    appearance: button;
 }

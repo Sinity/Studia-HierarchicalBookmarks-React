@@ -7,25 +7,25 @@ import BookmarkEdit from './modules/BookmarkEdit.js';
 
 const routes = {
     '/': () => <BookmarkList/>,
-	'/add': () => <BookmarkEdit/>,
-	'/bookmarks/:id': ({id}) => <BookmarkEdit id={id}/>,
-	'/tags/:name': ({name}) => <><BookmarkList tag={name}/></>
+    '/add': () => <BookmarkEdit/>,
+    '/bookmarks/:id': ({id}) => <BookmarkEdit id={id}/>,
+    '/tags/:name': ({name}) => <><BookmarkList tag={name}/></>
 };
 
 function NavBar(props) {
-	return <>            
-		<A href='/'>View all bookmarks</A><br />
+    return <>            
+        <A href='/'>View all bookmarks</A><br />
         <A href='/add'>Add new bookmark</A><br />
-		<TagList/>
-	</>;
+        <TagList/>
+    </>;
 }
 
 function App() {
     const routeResult = useRoutes(routes);
     return (
         <div className="App">
-			<NavBar className="navbar" />
-			<hr />
+            <NavBar className="navbar" />
+            <hr />
             {routeResult}
         </div>
     );
