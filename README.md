@@ -1,3 +1,14 @@
+# Studia-HierarchicalBookmarks-React.
+
+
+Projekt ze studiów, frontend w React; backend REST (C#) w repo Studia-HierarchicalBookmarks-WebApi-CSharp.
+
+
+
+
+------------------------------------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
