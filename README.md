@@ -1,4 +1,4 @@
-# Studia-HierarchicalBookmarks-React.
+# Studia-HierarchicalBookmarks-React
 
 
 Projekt ze studiów, frontend w React; backend REST (C#) w repo Studia-HierarchicalBookmarks-WebApi-CSharp.
